@@ -1,0 +1,7 @@
+D:\niraj_7056.c#\program 12\program 12\obj\Debug\program 12.csproj.AssemblyReference.cache
+D:\niraj_7056.c#\program 12\program 12\obj\Debug\program 12.csproj.CoreCompileInputs.cache
+D:\niraj_7056.c#\program 12\program 12\bin\Debug\program 12.exe.config
+D:\niraj_7056.c#\program 12\program 12\bin\Debug\program 12.exe
+D:\niraj_7056.c#\program 12\program 12\bin\Debug\program 12.pdb
+D:\niraj_7056.c#\program 12\program 12\obj\Debug\program 12.exe
+D:\niraj_7056.c#\program 12\program 12\obj\Debug\program 12.pdb
