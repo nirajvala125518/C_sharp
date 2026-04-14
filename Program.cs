@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace u3p12
+namespace u3p13
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             int[] arr = new int[5];
-            int max, i;
+            int min, i;
 
             Console.WriteLine("Enter 5 numbers:");
 
@@ -21,18 +21,17 @@ namespace u3p12
                 arr[i] = int.Parse(Console.ReadLine());
             }
 
-            max = arr[0];
+            min = arr[0];
 
             for (i = 1; i < 5; i++)
             {
-                if (arr[i] > max)
+                if (arr[i] < min)
                 {
-                    max = arr[i];
+                    min = arr[i];
                 }
             }
 
-            Console.WriteLine("Maximum number is: " + max);
+            Console.WriteLine("Minimum number is: " + min);
         }
-
     }
 }
