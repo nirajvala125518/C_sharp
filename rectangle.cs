@@ -5,32 +5,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UNIT_4
+namespace constructor
 {
-    internal class rectangle
+    internal class Rectangle
     {
         int l, w, area;
 
-        public void getdata()
+        public Rectangle()
         {
-            Console.WriteLine("Enter lenth :");
-            l = int.Parse(Console.ReadLine());
+            l = 10;
+            w = 20;
+        }
 
-            Console.WriteLine("Enter width : ");
-            w = int.Parse(Console.ReadLine());
-
+        public Rectangle(int l1, int w1)
+        {
+            l = l1;
+            w = w1;
         }
 
         public void calculate()
         {
             area = l * w;
-
         }
 
-        public void display()
+        public void Display()
         {
-            Console.WriteLine("area : " + area);
+            Console.WriteLine("area is --> " + area);
         }
-
     }
 }

@@ -6,21 +6,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UNIT_4
+namespace constructor
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            rectangle r = new rectangle();
-            r.getdata();
-            r.calculate();
-            r.display();
+            Rectangle r1 = new Rectangle();
+            r1.calculate();
+            r1.Display();
 
-            circle c = new circle();
-            c.getdata();
-            c.cal();
-            c.display();
+            Rectangle r2 = new Rectangle(30, 40);
+            r2.calculate();
+            r2.Display();
         }
     }
 }
